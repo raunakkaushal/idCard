@@ -1,0 +1,50 @@
+ .card {
+     height: 320px;
+     width: 220px;
+     border: 2px solid black;
+     border-radius: 5px;
+     display: inline-block;
+     margin-top: 50px;
+     margin-left: 80px;
+     box-shadow: 0 4px 8px black;
+     transition: 1s;
+
+ }
+
+ img {
+     width: 80%;
+     margin-top: 15px;
+     margin-left: 23px;
+     border-radius: 5px;
+     border: 2px ridge greenyellow;
+ }
+
+ .desc {
+     line-height: 3px;
+     text-align: center;
+     font-family: sans-serif;
+ }
+
+ .card:hover {
+     box-shadow: 0 8px 16px red;
+
+ }
+
+ .contact {
+     margin-top: 25px;
+     padding-left: 55px;
+     padding-right: 20px;
+ }
+
+ a {
+     display: inline-block;
+     margin: 5px;
+     text-decoration: none;
+     font-size: 30px;
+     color: black;
+ }
+
+ a:hover {
+     cursor: pointer;
+     color: blue;
+ }
